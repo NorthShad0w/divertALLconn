@@ -1,0 +1,2 @@
+# divertALLconn
+修改divertTCPconn,支持最新版WinDivert，用于windows端口转发端口复用之类的地方
