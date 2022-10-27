@@ -213,8 +213,6 @@ int __cdecl main(int argc, char **argv)
 			&ipv6_header, &icmp_header, &icmpv6_header, &tcp_header,
 			&udp_header, &payload, &payload_len);
 
-		printf("%lu\n", &ip_header->SrcAddr);
-		printf("%u\n", &tcp_header->DstPort);
 		if (ip_header == NULL && ipv6_header == NULL)
 		{
 			fprintf(stderr, "[WARNING] junk packet\n");
